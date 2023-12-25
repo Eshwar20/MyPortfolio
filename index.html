@@ -13,10 +13,10 @@
         <div class="logo">Sai Eshwar Reddy Gangireddy</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#About">About</a></li>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -46,7 +46,7 @@
             <h1 class="title">Sai Eshwar</h1>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#Contact'">Contact Info</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
             </div>
             <div id="social-container">
                 <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/sai-eshwar-reddy-gangireddy-87821014b/'">
@@ -82,7 +82,7 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Experience'">
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
     <section id="experience">
         <h1 class="title">Experience</h1>
@@ -324,19 +324,86 @@
     </section>
 
     <section id="projects">
-        <h1 class="title">Projects</h1>
-        <p>
-            <a id="expandLink">Expand Link</a>
+        <h1 class="title">Projects</h1> <br>
+        <!-- <p>
+            <a id="expandLink">Expense Tracker and Split Bill Application (HTML, CSS, Bootstrap, JavaScript, PHP, MYSQL)</a>
         </p>
     
         <div id="expandedContent" class="expandable-content">
+
             <p>
-                This is the additional content that appears when you click the link. 
-                It can be a paragraph or any other HTML content.
+                <br>
+                Implemented an application that tracks the expenses of certain individuals and splits the bill into a group
+            </p>
+        </div> -->
+        <ul>
+            <br><li><a  onclick="showParagraph('project1')">Displaying CI-CD Reports in AWS S3</a></li><br>
+           <br><li><a  onclick="showParagraph('project2')">Expense Tracker and Split Bill Application (HTML, CSS, Bootstrap, JavaScript, PHP, MYSQL)</a></li><br>
+           <br><li><a  onclick="showParagraph('project3')">Automate Sending Notifications Using AWS SNS and AWS Lambda</a></li><br>
+           
+        </ul>
+        
+        <div id="project1" class="hidden">
+            <h2>Displaying CI-CD Reports in AWS S3</h2>
+            <p>
+                Configured Gitlab CI to trigger pipelines for each service and wrote YAML snippets to display reports in respective
+AWS S3buckets.
             </p>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Experience'">
+    
+        <div id="project2" class="hidden">
+            <h2>Expense Tracker and Split Bill Application (HTML, CSS, Bootstrap, JavaScript, PHP, MYSQL)</h2>
+            <p>
+                Implemented an application that tracks the expenses of certain individuals and splits the bill into a group.
+            </p>
+        </div>
+
+        <div id="project3" class="hidden">
+            <h2>Automate Sending Notifications Using AWS SNS and AWS Lambda</h2>
+            <p>
+                Automated notification system that can send messages to multiple endpoints, such as email Amazon SNS and AWS Lambda
+            </p>
+        </div>
+
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
     </section>
+
+    <section id="contact">
+        <span class="section__text_p1">Get in Touch</span>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">saieshwar.97a@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/sai-eshwar-reddy-gangireddy-87821014b/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2023 Sai Eshwar. All Rights Reserved.</p>
+      </footer>
     <script src="script.js"></script>
+
 </body>
 </html>
