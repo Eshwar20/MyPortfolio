@@ -10,6 +10,10 @@
     #projects {
       height: fit-content;
     }
+    #experience,
+    #projects {
+        height: auto; /* or set a specific height based on your design */
+    }
   }
   
   @media screen and (max-width: 1200px) {
