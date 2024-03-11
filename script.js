@@ -7,6 +7,7 @@ function toggleMenu()
 
 }
 
+//made changes in mediaquery
 // document.getElementById('expandLink').addEventListener('click', function () {
 //     var expandedContent = document.getElementById('expandedContent');
 //     expandedContent.style.display = (expandedContent.style.display === 'none') ? 'block' : 'none';

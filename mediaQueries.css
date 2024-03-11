@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     #profile {
       height: 83vh;
       margin-bottom: 6rem;
@@ -9,11 +9,10 @@
     #contact,
     #projects {
       height: fit-content;
-      
     }
   }
   
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
     }
@@ -23,7 +22,6 @@
     #experience,
     .experience-details-container {
       margin-top: 2rem;
-      
     }
     #profile,
     .section-container {
@@ -49,7 +47,7 @@
     }
   }
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 600px) {
     #contact,
     footer {
       height: 40vh;
@@ -103,3 +101,5 @@
       text-align: justify;
     }
   }
+
+  
