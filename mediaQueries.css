@@ -19,9 +19,10 @@
     #hamburger-nav {
       display: flex;
     }
-    #experience,
+    #experience, #projects,
     .experience-details-container {
       margin-top: 2rem;
+      height: auto;
     }
     #profile,
     .section-container {
@@ -99,6 +100,10 @@
     }
     .text-container {
       text-align: justify;
+    }
+    #experience,
+    #projects {
+        height: auto; /* or set a specific height based on your design */
     }
   }
 
